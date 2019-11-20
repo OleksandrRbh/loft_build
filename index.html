@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lofti Space</title>
+  <link href="css/style.min.css" rel="stylesheet">
+</head>
+<body class="body">
+  <h1 class="visually-hidden">Lofti Space</h1>
+  <header class="page-header">
+    <a class="page-header__logo-link" href="#">
+      <img class="page-header__logo" src="img/logo.png" alt="logo">
+    </a>
+    <button class="page-header__lang-toggle" type="button" aria-label="Change menu">
+      <span class="page-header__lang-id">ru</span>      
+    </button>    
+    <button class="page-header__nav-toggle page-header__nav-toggle--closed" type="button" aria-label="Open menu"></button>    
+  </header>
+
+  <nav class="side-nav">
+    <span class="side-nav__lead">Lofti Space</span>
+    <ul class="side-nav__list">
+      <li class="side-nav__item">
+        <button class="side-nav__link current" type="button"></button>
+      </li>
+      <li class="side-nav__item">
+        <button class="side-nav__link" type="button"></button>
+      </li>
+      <li class="side-nav__item">
+        <button class="side-nav__link" type="button"></button>
+      </li>
+      <li class="side-nav__item">
+        <button class="side-nav__link" type="button"></button>
+      </li>
+      <li class="side-nav__item">
+        <button class="side-nav__link" type="button"></button>
+      </li>
+      <li class="side-nav__item">
+        <button class="side-nav__link" type="button"></button>
+      </li>
+    </ul>    
+  </nav>
+
+  <nav class="main-nav main-nav--closed">
+      <ul class="main_nav__list">
+        <li class="main_nav__item">
+          <a class="main_nav__link current" href="#">Главная</a>
+        </li>
+        <li class="main_nav__item">
+          <a class="main_nav__link" href="#">О нас</a>
+        </li>
+        <li class="main_nav__item">
+          <a class="main_nav__link" href="#">Локации</a>
+        </li>
+        <li class="main_nav__item">
+          <a class="main_nav__link" href="#">Тарифы</a>
+        </li>
+        <li class="main_nav__item">
+          <a class="main_nav__link" href="#">События</a>
+        </li>
+        <li class="main_nav__item">
+          <a class="main_nav__link" href="#">Контакты</a>
+        </li>
+        <li class="main_nav__item">
+          <a class="main_nav__link--disabled" href="#">Новости</a>
+        </li>
+        <li class="main_nav__item">
+          <a class="main_nav__link--disabled" href="#">Условия</a>
+        </li>        
+      </ul>
+      <ul class="main_nav__social">
+        <li class="main_nav__social-item">
+          <a class="main_nav__social-link" href="#">Instagram</a>
+        </li>
+        <li class="main_nav__social-item">
+          <a class="main_nav__social-link" href="#">Facebook</a>
+        </li>
+        <li class="main_nav__social-item">
+          <a class="main_nav__social-link" href="#">Twitter</a>
+        </li>
+      </ul>
+    </nav>    
+
+  <section class="main-screen screen current">
+    <div class="screen__text-content">
+      <h2 class="main-screen__heading screen__heading">Комфортная среда Вашей работы</h2>
+      <p class="main-screen__desc screen__desc">Оцените качественный сервис, записавшись на пробный день уже сегодня</p>
+      <a class="main-screen__button screen__button" href="#">Попробовать бесплатно ></a>
+    </div>
+    <div class="main-screen__slider-liner">
+      <div class="gallery-slider">
+        <div class="gallery-slider__image-window">
+          <img class="gallery-slider__image" src="img/gallery-1.jpg">        
+        </div>
+        <p class="gallery-slider__switches">
+          <button class="gallery-slider__btn gallery-slider__btn--prev" type="button">
+            <span class="visually-hidden">Предыдущий слайд</span>
+          </button>
+          <button class="gallery-slider__btn gallery-slider__btn--next" type="button">
+            <span class="visually-hidden">Следующий слайд</span>
+          </button>
+        </p>
+        <ul class="gallery-slider__numbering">
+          <li class="gallery-slider__number gallery-slider__number--active">01</li>
+          <li class="gallery-slider__number">02</li>
+          <li class="gallery-slider__number">03</li>
+          <li class="gallery-slider__number">04</li>
+          <li class="gallery-slider__number">05</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="about-screen screen">
+    <div class="about-screen__slider-liner">
+      <div class="about-screen__video-wrapper">
+        <video class="about-screen__video" width="" height="" poster="img/video-1.jpg">
+          <source src="" type="">
+        </video>
+        <button class="about-screen__video-btn" type="button" aria-label="Play video">
+          <img class="about-screen__video-play" src="img/play-btn.png" alt="Play video">
+        </button>
+      </div>
+    </div>
+    <div class="screen__text-content">
+      <h2 class="about-screen__heading screen__heading">О нас</h2>
+      <p class="about-screen__desc screen__desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+      <a class="about-screen__button screen__button" href="#">Подробнее</a>
+    </div>
+  </section>
+
+  <section class="location-screen screen">
+    <div class="screen__text-content">
+      <h2 class="location-screen__heading screen__heading">Найдите Ваше персональное место</h2>
+      <a class="location-screen__button screen__button" href="#">Перейти в галерею</a>
+    </div>
+    <div class="location-slider">
+      <div class="location-slider__window">
+        <div class="location-slider__container">
+          <div class="location-slider__item">
+            <img class="location-slider__image" src="img/location-1.jpg" alt="location-1">
+            <div class="location-slider__overlay">
+              <span class="location-slider__number">01</span>
+              <h3 class="location-slider__heading">Personal <br>place</h3>
+              <a class="location-slider__link" href="#">Перейти ></a>
+            </div>
+          </div>
+          <div class="location-slider__item">
+            <img class="location-slider__image" src="img/location-2.jpg" alt="location-2">
+            <div class="location-slider__overlay">
+              <span class="location-slider__number">02</span>
+              <h3 class="location-slider__heading">Open <br>space</h3>
+              <a class="location-slider__link" href="#">Перейти ></a>
+            </div>
+          </div>
+          <div class="location-slider__item">
+            <img class="location-slider__image" src="img/location-3.jpg" alt="location-2">
+            <div class="location-slider__overlay">
+              <span class="location-slider__number">03</span>
+              <h3 class="location-slider__heading">Meeting <br>room</h3>
+              <a class="location-slider__link" href="#">Перейти ></a>
+            </div>
+          </div>
+          <div class="location-slider__item">
+            <img class="location-slider__image" src="img/location-1.jpg" alt="location-1">
+            <div class="location-slider__overlay">
+              <span class="location-slider__number">04</span>
+              <h3 class="location-slider__heading">Personal <br>place</h3>
+              <a class="location-slider__link" href="#">Перейти ></a>
+            </div>
+          </div>
+          <div class="location-slider__item">
+            <img class="location-slider__image" src="img/location-2.jpg" alt="location-2">
+            <div class="location-slider__overlay">
+              <span class="location-slider__number">05</span>
+              <h3 class="location-slider__heading">Open <br>space</h3>
+              <a class="location-slider__link" href="#">Перейти ></a>
+            </div>
+          </div>
+          <div class="location-slider__item">
+            <img class="location-slider__image" src="img/location-3.jpg" alt="location-2">
+            <div class="location-slider__overlay">
+              <span class="location-slider__number">06</span>
+              <h3 class="location-slider__heading">Meeting <br>room</h3>
+              <a class="location-slider__link" href="#">Перейти ></a>
+            </div>
+          </div>
+          <p class="location-slider__switches">
+            <button class="location-slider__btn location-slider__btn--prev" type="button">
+              <span class="visually-hidden">Предыдущий слайд</span>
+            </button>
+            <button class="location-slider__btn location-slider__btn--next" type="button">
+              <span class="visually-hidden">Следующий слайд</span>
+            </button>
+          </p>
+        </div>            
+      </div>          
+    </div>
+  </section>
+
+  <section class="rates-screen screen">
+    <h2 class="rates-screen__heading screen__heading">Выберите свой <br>оптимальный вариант</h2>    
+    <div class="rates-screen__slider-liner">
+      <div class="rates-slider">
+        <div class="rates-slider__window">
+          <div class="rates-slider__container">
+            <div class="rates-slider__item">                          
+              <h3 class="rates-slider__heading">Дневной <br>пропуск</h3>
+              <span class="rates-slider__price"><span>от</span> 300 ₴</span>
+              <a class="rates-slider__more" href="#">Подробнее</a>            
+            </div>
+            <div class="rates-slider__item">                          
+              <h3 class="rates-slider__heading">Недельный <br>пропуск</h3>
+              <span class="rates-slider__price"><span>от</span> 1000 ₴</span>
+              <a class="rates-slider__more" href="#">Подробнее</a>            
+            </div>
+            <div class="rates-slider__item">                          
+              <h3 class="rates-slider__heading">Месячный <br>абонемент</h3>
+              <span class="rates-slider__price"><span>от</span> 3500 ₴</span>
+              <a class="rates-slider__more" href="#">Подробнее</a>            
+            </div>
+            <div class="rates-slider__item">                          
+              <h3 class="rates-slider__heading">Абонемент <br>на 3 месяца</h3>
+              <span class="rates-slider__price"><span>от</span> 9975 ₴</span>
+              <a class="rates-slider__more" href="#">Подробнее</a>            
+            </div>
+            <div class="rates-slider__item">                          
+              <h3 class="rates-slider__heading">Абонемент <br>на 6 месяцев</h3>
+              <span class="rates-slider__price"><span>от</span> 18250 ₴</span>
+              <a class="rates-slider__more" href="#">Подробнее</a>            
+            </div>
+            <div class="rates-slider__item">                          
+              <h3 class="rates-slider__heading">Абонемент <br>на год</h3>
+              <span class="rates-slider__price"><span>от</span> 34995 ₴</span>
+              <a class="rates-slider__more" href="#">Подробнее</a>            
+            </div>
+            <p class="rates-slider__switches">
+              <button class="rates-slider__btn rates-slider__btn--prev" type="button">
+                <span class="visually-hidden">Предыдущий слайд</span>
+              </button>
+              <button class="rates-slider__btn rates-slider__btn--next" type="button">
+                <span class="visually-hidden">Следующий слайд</span>
+              </button>
+            </p>
+          </div>        
+        </div>                
+      </div>
+    </div>
+  </section>
+
+  <section class="events-screen screen">
+    <div class="events-screen__wrapper">
+      <h2 class="events-screen__heading screen__heading">Актуальные события</h2>
+      <div class="events-screen__slider-liner">
+        <div class="news">
+          <ul class="news__list">
+            <li class="news__item">
+              <div class="news__image-wrapper">
+                <img class="news__image" src="img/event-1.jpg" alt="event-1">
+              </div>
+              <div class="news__desc">
+                <time class="news__date" datetime="2019-03-22">22.03.2019</time>
+                <h3 class="news__name">Do eiusmod tempor incididunt</h3>
+              </div>
+            </li>
+            <li class="news__item">
+              <div class="news__image-wrapper">
+                <img class="news__image" src="img/event-2.jpg" alt="event-2">
+              </div>
+              <div class="news__desc">
+                <time class="news__date" datetime="2019-03-21">21.03.2019</time>
+                <h3 class="news__name">Dolore magna aliqua</h3>
+              </div>
+            </li>
+            <li class="news__item">
+              <div class="news__image-wrapper">
+                <img class="news__image" src="img/event-3.jpg" alt="event-3">
+              </div>
+              <div class="news__desc">
+                <time class="news__date" datetime="2019-03-20">20.03.2019</time>
+                <h3 class="news__name">Tempor incididunt ut labore et</h3>
+              </div>
+            </li>
+          </ul>
+          <a class="news__more" href="#">Больше событий</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="contacts-screen screen">
+    <div class="contacts-screen__map">
+      <img class="contacts-screen__image" src="img/map.jpg" alt="Our address">
+    </div>
+    <div class="contacts-screen__slider-liner">
+      <div class="info">
+        <ul class="info__list">
+          <li class="info__item">
+            <span class="info__name">Телефон</span>
+            <p class="info__value">+380 (88) 888 8888</p>
+          </li>
+          <li class="info__item">
+            <span class="info__name">E-mail</span>
+            <p class="info__value">support@lofti-space.com</p>
+          </li>
+          <li class="info__item">
+            <span class="info__name">Адрес</span>
+            <p class="info__value">г. Киев, <br>бул. Леси Украинки, 12</p>
+          </li>
+        </ul>
+        <ul class="info__social social">
+          <li class="social__item">
+            <a class="social__link" href="#">Instagram</a>
+          </li>
+          <li class="social__item">
+            <a class="social__link" href="#">Facebook</a>
+          </li>
+          <li class="social__item">
+            <a class="social__link" href="#">Twitter</a>
+          </li>
+        </ul>
+        <a class="info__button screen__button" href="#">Оставить заявку</a>
+      </div>
+    </div></section>
+  
+  <script src="js/lodash.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
